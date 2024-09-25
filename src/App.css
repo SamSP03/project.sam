@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/cssfamily=Roboto+condesed:wght@200;300;400;500;600;700;800&display=swap");
+
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 350px;
+  padding:30px;
+  background-color: white;
+  border-radius:18px;
+  box-shadow:0 0 20px  aqua, 0 0 60px aqua;
+}
+.input-container{
+  width:350px;
+  display:flex;
+  align-items: center;
+  border:3px solid rgba(8, 131, 131, 0.911);
+  border-radius:10px;
+  overflow:hidden;
+
+}
+
+
+.cityInput{
+  flex:1;
+  height: 30px;
+  border: none;
+  font-size:20px;
+  outline:none;
+  padding:10px;
+}
+.search-icon{
+  padding:10px;
+  height:30px;
+  cursor: pointer;
+
+}
+
+.search-icon img{
+  margin-top:5px;
+}
+
+.image{
+  padding-bottom: 4px;
+  padding-left: 80px;
+  padding-top: 40px;
+  padding-right: 80px;
+ 
+}
+.image img{
+  width: 200px;
+  height: 200px;
+  
+}
+.climate{
+  font-size:30px ;
+  padding-top:10px ;
+  text-align: center;
+  color:rgba(21, 207, 207, 0.911);
+  }
+  
+  
+.des{
+    font-size:20px ;
+    padding-top: 10px;
+    text-align: center;
+    color:rgba(8, 121, 111, 0.945);
+    text-transform: uppercase;
+  
+}
+
+.temp,
+.location,
+.country{
+margin-top: 10px;
+font-size: 35px;
+color: rgba(8, 131, 131, 0.911);
+text-transform:uppercase;
+text-align: center;
+}
+.temp{
+  font-weight:600;
+}
+.location{
+  color:rgba(21, 207, 207, 0.911);
+  font-weight: 400;
+  font-size: 40px;
+}
+.country{
+  font-size: 25px;
+  color:rgba(8, 131, 131, 0.911);
+  font-weight:500;
+}
+.cord{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:60px;
+  color:rgba(8, 131, 131, 0.911);
+}
+.cord div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+.cord div span{
+  font-size:20px;
+
+}
+
+.cord div span:nth-child(2){
+  font-size:18px;
+  font-weight: bold;
+  color:rgba(8, 131, 131, 0.911);
+  padding-top:5px;
+
+
+
+}
+.data-container 
+{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 15px;
+  
+}
+.element{
+  text-align: center;
+  color:rgba(8, 131, 131, 0.911);
+  font-weight:bolder;
+
+}
+.icon{
+  height: 50px;
+  width: 50px;
+}
+.text{
+  font-size: 15px;
+  color:rgba(8, 131, 131, 0.911);
+
+}
+.copyright{
+  text-align:center;
+  font-size: small;
+  color:rgba(8, 131, 131, 0.911);
+
+
+}
+.copyright span{
+  color:rgba(8, 131, 131, 0.911);
+}
+
+.city-not-found,
+.loading-message,
+.error-message{
+  margin-top:20px ;
+  color:rgba(8, 131, 131, 0.911);
+  font-size:30px;
+
+  text-align: center;
+  height:72.5vh;
+  
+}
+.loading-message{
+  color:rgba(8, 131, 131, 0.911);
+}
